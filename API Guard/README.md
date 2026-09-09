@@ -1,4 +1,4 @@
-# Latensys
+# API-Guard
 
 **Real-time API monitoring, P95 latency analysis, and Redis-backed rate limiting platform**
 
@@ -28,7 +28,7 @@ Latensys is a Spring Boot application built to help you monitor API performance 
 ## Project Structure
 
 ```text
-latensys/
+API-Guard/
 ├── src/
 ├── .mvn/
 ├── mvnw
@@ -49,8 +49,8 @@ latensys/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/HarshitS17/latensys.git
-cd latensys
+https://github.com/Diksha-Ghildiyal/API-Guard.git
+cd API-Guard
 ```
 
 ### Configure the application
@@ -60,7 +60,7 @@ Set your database and Redis settings in `application.properties` or `application
 Example:
 
 ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/latensys
+spring.datasource.url=jdbc:postgresql://localhost:5432/API-Guard
 spring.datasource.username=postgres
 spring.datasource.password=your_password
 
